@@ -1,0 +1,34 @@
+/* GENERAL */
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(40deg, rgb(10, 60, 134), rgb(228, 20, 65));
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.box{
+    color: white;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(211, 210, 210, 0.384), rgba(211, 211, 211, 0.432));
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: 5px;
+    box-shadow: 0px 5px 19px 0px rgba(29, 29, 29, 0.534);
+}
+
+.container{
+    padding: 2rem 6rem .5rem;
+}
+
+.container > [class^="col"]{
+    padding: .4rem;
+}
+
+.container > [class^="col"] [class^="col"]:not(:last-child){
+    padding-right: .1rem;
+}
+
+.container > [class^="col"] [class^="col"]:not(:first-child){
+    padding-left: .1rem;
+}
